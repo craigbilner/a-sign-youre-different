@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SomeInput from '../SomeInput/SomeInput';
-import cloneDeep from 'lodash.clonedeep'
+import cloneDeep from 'lodash.clonedeep';
 
 export default class SomeHOC extends Component {
   constructor(props) {
@@ -10,7 +10,7 @@ export default class SomeHOC extends Component {
       inputValue: 'some default',
       nestedObj: {
         inputValue: 'some nested default',
-      }
+      },
     };
 
     this.handleChange = this.handleChange.bind(this);
