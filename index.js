@@ -1,3 +1,5 @@
-/**
- * Created by craigbilner on 22/01/2016.
- */
+import React from 'react';
+import { render } from 'react-dom';
+import App from './components/App/App';
+
+render(<App />, document.getElementById('main'));
